@@ -19,6 +19,7 @@ public class IEEStandards {
 		System.out.println("Not ok");
 	}
 	System.out.println("Over");
+	System.out.println(1/10);
 }
 
 
