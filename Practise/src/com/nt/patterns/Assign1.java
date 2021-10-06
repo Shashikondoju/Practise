@@ -1,4 +1,4 @@
-package com.nt.exam;
+package com.nt.patterns;
 
 public class Assign1 {
 
