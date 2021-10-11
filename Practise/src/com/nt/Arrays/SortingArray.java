@@ -1,10 +1,19 @@
 package com.nt.Arrays;
 
+import java.util.Scanner;
+
 public class SortingArray {
 
 	public static void main(String[] args) {
 		int []ar= {12,1,3,4};
-		String[] sr= {"shashi","shiva","ravi","saketh"};
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter string length");
+		int length=s.nextInt();
+		String[] sr=new String[length];
+		System.out.println("Enter String Elements::");
+		for (int i = 0; i < sr.length; i++) {
+			sr[i]=s.next();
+		}
 		java.util.Arrays.sort(sr);
 		System.out.println(java.util.Arrays.toString(sr));
 		for (int i = 0; i < sr.length; i++) {
